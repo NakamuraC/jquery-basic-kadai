@@ -1,5 +1,5 @@
-$(window).on('road',function(){
-    console.log('roadイベントが発生しました');
+$(window).on('load',function(){
+    console.log('loadイベントが発生しました');
 });
 
 $(function(){
